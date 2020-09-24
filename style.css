@@ -1,0 +1,90 @@
+
+  .flex-container{
+    display: flex;
+    width: 100%;
+  }
+  
+  .first {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+
+  .pirmas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    background: green;
+    margin: 5px;
+  }
+
+  .antras {
+    height: 190px;
+    background: rgb(41, 219, 24);
+    margin: 0 5px 5px 5px;
+  }
+  
+  .second {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 300px;
+  }
+
+  .trecias {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 70%;
+  }
+
+  .v {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 35%;
+    background: rgb(176, 233, 171);
+    margin: 5px 5px 5px 0;
+  }
+
+  .d {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 35%;
+    background: rgb(26, 158, 0);
+    margin: 5px 5px 0 0;
+  }
+
+  .t {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 35%;
+    background: rgb(139, 196, 161);
+    margin: 0 5px 5px 0;
+  }
+
+  .k {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 35%;
+    background: rgb(156, 184, 156);
+    margin: 0 5px 5px 0;
+  }
+
+  .ketvirtas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 130px;
+    width: 49.5%;
+    background: rgb(117, 252, 128);
+  }
+
